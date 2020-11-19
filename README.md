@@ -10,4 +10,7 @@ topic/:text
 How to run
 ------------
 
+```bash
+docker run -m=8g mountain/lda-server
+```
 
