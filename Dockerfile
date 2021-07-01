@@ -1,4 +1,4 @@
-FROM openjdk:9-jdk-slim-buster
+FROM openjdk:11-jdk-slim-buster
 
 ENV LDASERVER_HOME /usr/local/lda-server
 ENV PATH $LDASERVER_HOME/bin:$PATH
