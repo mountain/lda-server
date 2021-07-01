@@ -15,7 +15,7 @@
 (defonce lda (atom nil))
 
 (defn show []
-  (.printTopWords @lda java.lang.System/out 20 true))
+  (.printTopWords @lda java.lang.System/out 256 true))
 
 (defn infer [text]
   (.info logger (subs (.toString text) 0 (min 20 (.length text))))
