@@ -11,6 +11,6 @@ How to run
 ------------
 
 ```bash
-docker run -m=8g mountain/lda-server:latest
+docker run -m=9g mountain/lda-server:latest
 ```
 
