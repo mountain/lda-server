@@ -11,6 +11,6 @@ How to run
 ------------
 
 ```bash
-docker run -m=12g mountain/lda-server:15-jdk-slim-buster
+docker run -m=12g mountain/lda-server:11-jdk-slim-buster
 ```
 
