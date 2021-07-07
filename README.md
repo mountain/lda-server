@@ -13,7 +13,7 @@ We tried our best to provide a standard non-biased corpus, we follow the classif
 interface
 ---------
 
-topic/:text
+topics/:text
 
 How to run
 ------------
